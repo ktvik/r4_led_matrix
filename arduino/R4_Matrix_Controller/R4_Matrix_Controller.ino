@@ -60,7 +60,6 @@ void processCommand(String cmd) {
 void updateMatrix() {
   matrix.beginDraw();
   matrix.stroke(0xFFFFFFFF);
-  matrix.textScrollSpeed(map(scrollSpeed, 10, 200, 100, 10)); 
   matrix.textFont(Font_4x6);
   matrix.beginText(0, 1, 0xFFFFFFFF);
   matrix.print("  " + currentText + "  ");
